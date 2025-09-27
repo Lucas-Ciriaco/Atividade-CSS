@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: #212427
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: #FFE4C4;
+    border: solid 2px #212427;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.cor1 {
+    background-color: #FF00FF;
+    align-self: flex-start;
+}
+
+.cor2 {
+    background-color: #EE82EE;
+    order: 2;
+    align-self: flex-end;
+}
+
+.cor3 {
+    background-color: #DA70D6;
+    align-self: center;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: #FFE4C4;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
